@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\CancelOrder.cs" />
     <Compile Include="Model\PushText.cs" />
     <Compile Include="Model\Httpresponse.cs" />
     <Compile Include="Model\CompleteOrder.cs" />
