@@ -15,7 +15,7 @@ namespace JsonRequest.Methods
         //        driver= "Juan Perez",
         //        estimatedTime= "01:45",
         //        message= "Móvil asignado!"  };
-        public int preIncidentId { get; set; }
+        public long preIncidentId { get; set; }
         public string mobileNumber { get; set; }
         public string doctor { get; set; }
         public string nurse { get; set; }

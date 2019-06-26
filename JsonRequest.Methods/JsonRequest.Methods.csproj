@@ -59,17 +59,17 @@
     <Compile Include="Model\User.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JsonRequest\JsonRequest.csproj">
-      <Project>{cf78da81-1db5-4841-abf4-a9846c828c0d}</Project>
-      <Name>JsonRequest</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JsonRequest\JsonRequest.csproj">
+      <Project>{cf78da81-1db5-4841-abf4-a9846c828c0d}</Project>
+      <Name>JsonRequest</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

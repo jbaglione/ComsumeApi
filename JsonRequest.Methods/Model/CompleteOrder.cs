@@ -8,7 +8,7 @@
         //    diagnostic = "Diagnostico",
         //    treatment = "Tratamiento recomendado: ...",
         //};
-        public int preIncidentId { get; set; }
+        public long preIncidentId { get; set; }
         public string diagnostic { get; set; }
         public string treatment { get; set; }
     }
