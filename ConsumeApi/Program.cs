@@ -14,7 +14,7 @@ namespace ConsumeApi
         {
             string server = ConfigurationManager.AppSettings["server"];
             SendMethods sm = new SendMethods();
-            sm.ConfirmOrder();
+            sm.ConfirmOrder(new Order());
         }
     }
 }

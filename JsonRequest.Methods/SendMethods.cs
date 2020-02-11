@@ -11,7 +11,8 @@ namespace JsonRequest.Methods
         public bool ConfirmOrder(Order order) => (bool)request.Execute<bool>(server + "/Notification/ConfirmOrder", order, "POST");
         public bool OrderMobileAssigned(OrderMobileAssigned orderMobileAssigned) => (bool)request.Execute<bool>(server + "/Notification/OrderMobileAssigned", orderMobileAssigned, "POST");
         public bool CompleteOrder(CompleteOrder completeOrder) => (bool)request.Execute<bool>(server + "/Notification/CompleteOrder", completeOrder, "POST");
-        public bool PushText(PushText pushText) => (bool)request.Execute<bool>(server + "/Notification/ConfirmOrder", pushText, "POST");
+        public bool PushText(PushText pushText) => (bool)request.Execute<bool>(server + "/Notification/PushText", pushText, "POST");
         public bool CancelOrder(CancelOrder cancelOrder) => (bool)request.Execute<bool>(server + "/Notification/CancelOrder", cancelOrder, "POST");
+        public bool ArriveOrder(ArriveOrder arriveOrder) => (bool)request.Execute<bool>(server + "/Notification/ArriveOrder", arriveOrder, "POST");
     }
 }

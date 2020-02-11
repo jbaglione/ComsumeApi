@@ -11,25 +11,25 @@ namespace JsonReques.Test
         [TestMethod]
         public void ConfirmOrder()
         {
-            Assert.IsTrue(sm.ConfirmOrder());
+            Assert.IsTrue(sm.ConfirmOrder(new Order()));
         }
 
         [TestMethod]
         public void CompleteOrder()
         {
-            Assert.IsTrue(sm.CompleteOrder());
+            Assert.IsTrue(sm.CompleteOrder(new CompleteOrder()));
         }
 
         [TestMethod]
         public void OrderMobileAssigned()
         {
-            Assert.IsTrue(sm.OrderMobileAssigned());
+            Assert.IsTrue(sm.OrderMobileAssigned(new OrderMobileAssigned()));
         }
 
         [TestMethod]
         public void PushText()
         {
-            Assert.IsTrue(sm.ConfirmOrder());
+            Assert.IsTrue(sm.ConfirmOrder(new Order()));
         }
 
     }

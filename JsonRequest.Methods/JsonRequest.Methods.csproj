@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\CancelOrder.cs" />
+    <Compile Include="Model\ArriveOrder.cs" />
     <Compile Include="Model\PushText.cs" />
     <Compile Include="Model\Httpresponse.cs" />
     <Compile Include="Model\CompleteOrder.cs" />
