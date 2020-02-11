@@ -8,7 +8,7 @@ namespace JsonRequest.Methods
 {
     public class ArriveOrder
     {
-        public int preIncidentId { get; set; }
+        public long preIncidentId { get; set; }
         public string message { get; set; }
     }
 }
